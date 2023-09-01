@@ -14,7 +14,6 @@ const HeaderCartButton = (props) => {
     return curNumber + item.amount;
   }, 0);
 
-
   const btnClasses = `${classes.button} ${
     btnIsHighlighted ? classes.bump : ""
   }`;
